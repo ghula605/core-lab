@@ -104,6 +104,15 @@ This is where your custom styles begin.
   position: relative;
 }
 
+.content_wrapper_p2 {
+  height: 834px;
+  width: 946px;
+  padding-top: 50px;
+  padding-left: 420px;
+  font-family: 'Tajawal', sans-serif;
+  color: #006464;
+}
+
 #projects {
   padding-top: 40px;
   font-size: 36px;
@@ -111,40 +120,49 @@ This is where your custom styles begin.
 }
 
 .p3 {
-  z-index: 4;
   background-color: #3C604B;
   height: 800px;
-  z-index: 1;
   position: relative;
 }
 
-#favs {
-  z-index: 5;
-  color: #C9EAD7;
-  position: relative;     
+.content_wrapper_p3 {
+  flex-direction: row;
+  height: 834px;
+  width: 946px;
+  padding-top: 50px;
+  padding-left: 420px;
+  font-family: 'Tajawal', sans-serif;
+  color: #006464;
 }
 
-#description {
-  z-index: 5;
-  padding-top: 40px;
-  padding-left: 500px;
+#favs {
+  color: #C9EAD7;
+  position: relative; 
+  height: 20px;
+  width: 946px;    
+}
+
+.content_wrapper_p3_sub {
+  height: 834px;
+  width: 946px;
+  padding-top: 50px;
+}
+
+.img {
+  display: flex;
+  height: 569px;
+  width: 440px;
+}
+
+#description { 
+  display: flex;
   font-weight: 300;
   color: #C9EAD7;
   position: relative;
 }
 
-.img {
-  padding-top: 40px;
-  z-index: 6;
-  align-content: left;
-  position: relative;
-  height: 569px;
-}
-
 #link {
-  z-index: 5;
-  padding-top: 40px;
-  padding-left: 500px;
+  display: flex;
   font-weight: 300;
   color: #C9EAD7;
   font-weight: bold;
