@@ -149,14 +149,14 @@ This is where your custom styles begin.
 
 .img {
   padding-top: 50px;
-  height: 569px;
+  height: 560px;
   width: 440px;
   float: left;
 }
 
 #description { 
   padding-top: 34px;
-  padding-left: 50px;
+  padding-left: 40px;
   font-weight: 400;
   position: relative;
   width: 450px;
@@ -165,7 +165,7 @@ This is where your custom styles begin.
 }
 
 #link {
-  padding-left: 50px;
+  padding-left: 40px;
   font-weight: 300;
   font-weight: bold;
   position: relative;
