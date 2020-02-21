@@ -133,6 +133,14 @@ This is where your custom styles begin.
   position: relative;
 }
 
+.img {
+  padding-top: 40px;
+  z-index: 6;
+  align-content: left;
+  position: relative;
+  height: 569px;
+}
+
 #link {
   z-index: 5;
   padding-top: 40px;
@@ -143,9 +151,4 @@ This is where your custom styles begin.
   position: relative;
 }
 
-.img {
-  z-index: 6;
-  align-content: left;
-  position: relative;
-  height: 200px;
-}
+
