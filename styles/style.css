@@ -126,6 +126,7 @@ This is where your custom styles begin.
 }
 
 .content_wrapper_p3 {
+  display: flex;
   flex-direction: row;
   height: 834px;
   width: 946px;
@@ -139,30 +140,26 @@ This is where your custom styles begin.
   color: #C9EAD7;
   position: relative; 
   height: 20px;
-  width: 946px;    
+  width: 100px;
 }
 
 .content_wrapper_p3_sub {
-  height: 834px;
+  height: 800px;
   width: 946px;
-  padding-top: 50px;
 }
 
 .img {
-  display: flex;
   height: 569px;
   width: 440px;
 }
 
 #description { 
-  display: flex;
   font-weight: 300;
   color: #C9EAD7;
   position: relative;
 }
 
 #link {
-  display: flex;
   font-weight: 300;
   color: #C9EAD7;
   font-weight: bold;
