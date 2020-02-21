@@ -120,7 +120,7 @@ This is where your custom styles begin.
 }
 
 .p3 {
-  background-color: #3C604B;
+  background-color: #7DC39B;
   height: 800px;
   position: relative;
 }
@@ -137,7 +137,6 @@ This is where your custom styles begin.
 }
 
 #favs {
-  color: #C9EAD7;
   position: relative; 
   height: 20px;
   width: 100px;
@@ -155,13 +154,11 @@ This is where your custom styles begin.
 
 #description { 
   font-weight: 300;
-  color: #C9EAD7;
   position: relative;
 }
 
 #link {
   font-weight: 300;
-  color: #C9EAD7;
   font-weight: bold;
   position: relative;
 }
