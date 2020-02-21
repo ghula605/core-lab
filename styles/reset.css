@@ -29,6 +29,7 @@ You will begin to stack your OWN code on top of it.
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
+       box-sizing: border-box;
   }
   
   /* Sections
@@ -43,7 +44,7 @@ You will begin to stack your OWN code on top of it.
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    box-sizing: border-box;
+ 
   }
   
   /**
