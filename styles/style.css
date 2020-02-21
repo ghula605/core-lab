@@ -3,9 +3,6 @@
 This is where your custom styles begin. 
 
 ==========================================================================  */
-body {
-  box-sizing: border-box;
-}
 
 .menu {
   height: 800px;
@@ -114,6 +111,7 @@ body {
 }
 
 .p3 {
+  z-index: 4;
   background-color: #3C604B;
   height: 800px;
   z-index: 1;
@@ -121,11 +119,33 @@ body {
 }
 
 #favs {
+  z-index: 5;
   color: #C9EAD7;
+  position: relative;     
 }
 
 #description {
+  z-index: 5;
+  padding-top: 40px;
   padding-left: 500px;
   font-weight: 300;
   color: #C9EAD7;
+  position: relative;
+}
+
+#link {
+  z-index: 5;
+  padding-top: 40px;
+  padding-left: 500px;
+  font-weight: 300;
+  color: #C9EAD7;
+  font-weight: bold;
+  position: relative;
+}
+
+.img {
+  z-index: 6;
+  align-content: left;
+  position: relative;
+  height: 200px;
 }
