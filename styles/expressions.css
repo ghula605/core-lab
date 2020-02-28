@@ -3,3 +3,8 @@
 This is where your custom styles begin. 
 
 ==========================================================================  */
+p{
+  font-family: "Tajawal", sans-serif;
+  text-align: center;
+  font-size: 300pt;
+}
