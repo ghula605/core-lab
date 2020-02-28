@@ -3,6 +3,7 @@
 This is where your custom styles begin. 
 
 ==========================================================================  */
+
 .menu {
   height: 800px;
   width: 192px;
@@ -22,7 +23,6 @@ This is where your custom styles begin.
 .links {
   padding-top: 460px;
 }
-
 
 .wrapper {
   height: 2400px;
@@ -110,10 +110,54 @@ This is where your custom styles begin.
 }
 
 .p3 {
-  background-color: black;
+  background-color: #6A6A6A;
   height: 800px;
-  z-index: 1;
   position: relative;
 }
 
+.content_wrapper_p3 {
+  display: flex;
+  flex-direction: row;
+  height: 834px;
+  width: 946px;
+  padding-top: 50px;
+  padding-left: 420px;
+  font-family: 'Tajawal', sans-serif;
+  color: #000;
+}
 
+#favs {
+  position: relative; 
+  height: 20px;
+  width: 100px;
+}
+
+.content_wrapper_p3_sub {
+  height: 800px;
+  width: 946px;
+}
+
+.img {
+  padding-top: 50px;
+  height: 560px;
+  width: 440px;
+  float: left;
+}
+
+#description { 
+  padding-top: 34px;
+  padding-left: 40px;
+  font-weight: 400;
+  position: relative;
+  width: 450px;
+  float: left;
+
+}
+
+#link {
+  padding-left: 40px;
+  font-weight: 300;
+  font-weight: bold;
+  position: relative;
+  float: left;
+}
