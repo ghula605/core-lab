@@ -9,7 +9,7 @@ body {
   font-family: "Pragmatica Extended", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  height: 9860px;
+  height: 9000px;
   width: 100%;
 }
 
@@ -49,7 +49,19 @@ body {
   font-weight: 700;
   font-style: oblique;
   color: white;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
 }
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(255, 255, 255, 0.795), 0 0 40px rgba(255, 255, 255, 0.671);
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px rgba(255, 255, 255, 0.795), 0 0 40px rgba(255, 255, 255, 0.671);
+  }
+}
+
+
 
 .background_1 {
   height: 828px;
