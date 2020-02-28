@@ -3,10 +3,6 @@
 This is where your custom styles begin. 
 
 ==========================================================================  */
-body {
-  box-sizing: border-box;
-}
-
 .menu {
   height: 800px;
   width: 192px;
