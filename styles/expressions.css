@@ -97,6 +97,18 @@ body {
   margin: 0 auto;
 }
 
+#not-one {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#not-one:hover {
+  font-weight: 300;
+}
+
 #shine {
   font-size: 8.4vw;
   font-weight: 900;
@@ -106,8 +118,62 @@ body {
 }
 
 #shine:hover {
-  font-style: oblique;
-  glow
+  text-shadow: 0px 0px 30px white;
+}
+
+#yourself {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#yourself:hover {
+  letter-spacing: 30px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#never {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#never:hover {
+  color: transparent;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: white;
+}
+
+#yes {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#yes:hover {
+  font-family: "Halogen", sans-serif;
+  font-weight: 400;
+}
+
+|#mighty {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#mighty:hover {
+  font-family: "Halogen", sans-serif;
+  font-size: 7.6vw;
+  text-shadow: 0px 0px 30px white;
 }
 
 .circle {
