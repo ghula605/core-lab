@@ -9,7 +9,7 @@ body {
   font-family: "Pragmatica Extended", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  height: 9000px;
+  height: 10200px;
   width: 100%;
 }
 
@@ -29,12 +29,22 @@ body {
 }
 
 .spacer {
-  height: 134px;
+  height: 180px;
   width: 100%;
 }
 
 .spacer_i {
   height: 40px;
+  width: 100%;
+}
+
+.spacer_ii {
+  height: 15vh;
+  width: 100%;
+}
+
+.spacer_iii {
+  height: 25vh;
   width: 100%;
 }
 
@@ -45,7 +55,7 @@ body {
 }
 
 .title {
-  font-size: 240px;
+  font-size: 18vw;
   font-weight: 700;
   font-style: oblique;
   color: white;
@@ -71,35 +81,74 @@ body {
 }
 
 .wrapper_text {
-  padding-left: 235px;
+  margin: 0 auto;
   height: 828px;
-  width: 959px;
+  width: 100%;
+  max-width: 959px;
   z-index: 2;
   position: relative;
 }
 
 .text {
-  font-size: 120px;
+  font-size: 8.4vw;
   font-weight: 900;
-  line-height: 130px;
   color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#shine {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#shine:hover {
+  font-style: oblique;
+  glow
 }
 
 .circle {
-  height: 400px;
-  width: 400px;
-  background-color: white;
+  height: 680px;
+  width: 680px;
+  background: radial-gradient(#ffffff, #53584e00);
   position: relative;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
-.expressions_gif {
+.circle:hover {
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+100%,0% { opacity: 1; }
+50% { opacity: 0; }
+}
+
+@keyframes fadeinout {
+100%,0% { opacity: 1; }
+50% { opacity: 0; }
+}
+
+.wrapper_3 {
+  width: 959;
+  position: relative;
+  display: inline-block;
+}
+
+.trees_gif {
   width: 959px;
   position: relative;
+  z-index: 98;
 }
 
 .wrapper_image_2 {
-  padding-top: 6239px;
-  height: 828px;
+  padding-top: 7520px;
+  height: 800px;
   width: 1440px;
   z-index: 1;
   position: relative;
