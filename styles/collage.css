@@ -1,0 +1,164 @@
+.collage {
+  background-color:  rgb(213, 232, 248);
+  width: 100%;
+  min-height: 100%;
+  padding-top: 30px;
+  padding-bottom: 140px;
+}
+
+.flexbox {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.alt {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.flex-image {
+  width: 100%;
+  max-width: 500px;
+  flex-basis: 40%;
+  padding: 20px;
+}
+
+.image-1 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  left: 30px;
+}
+
+.image-2 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.image-3 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.image-4 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.image-5 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.image-6 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.image-7 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.image-8 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.image-9 {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+@media (min-width: 800px) {
+  .collage {
+    background-color: rgb(248, 213, 238);
+    width: 345vw;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 140px;
+  }
+
+  .image-1 {
+    position: absolute;
+    top: 10%;
+    bottom: 100px;
+    left: 100px;
+  }
+  
+  .image-2 {
+    position: absolute;
+    top: 30%;
+    left: 450px;
+  }
+  
+  .image-3 {
+    position: absolute;
+    top: 60%;
+    left: 750px;
+    max-width: 200px;
+  }
+  
+  .image-4 {
+    position: absolute;
+    top: 15%;
+    left: 900px;
+  }
+  
+  .image-5 {
+    position: absolute;
+    top: 50%;
+    left: 2500px;
+    z-index: 1;
+  }
+  
+  .image-6 {
+    position: absolute;
+    top: 30%;
+    left: 2800px;
+    z-index: 2;
+  }
+  
+  .image-7 {
+    position: absolute;
+    top: 10%;
+    left: 3100px;
+  }
+  
+  .image-8 {
+    position: absolute;
+    top: 15%;
+    left: 2200px;
+    z-index: 0;
+  }
+  
+  .image-9 {
+    position: absolute;
+    top: 20%;
+    left: 4025px;
+  }
+}
