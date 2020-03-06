@@ -172,4 +172,8 @@ This is where your custom styles begin.
   float: left;
 }
 
-
+.module {
+  background:gray;
+  width:200px;
+  height:200px;
+  cursor: url('../assets/cursor_1.png'), auto;	
