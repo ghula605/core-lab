@@ -161,3 +161,7 @@ This is where your custom styles begin.
   position: relative;
   float: left;
 }
+
+.module {
+  cursor: url('cursor_2.png'), auto;	
+}
