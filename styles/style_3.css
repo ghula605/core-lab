@@ -4,6 +4,10 @@ This is where your custom styles begin.
 
 ==========================================================================  */
 
+.body {
+  cursor: url('../assets/cursor_3.png'), default;
+}
+
 .menu {
   height: 800px;
   width: 192px;
@@ -162,3 +166,4 @@ This is where your custom styles begin.
   position: relative;
   float: left;
 }
+
