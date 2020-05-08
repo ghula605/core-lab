@@ -1,0 +1,243 @@
+/**  ========================================================================== 
+
+This is where your custom styles begin. 
+
+==========================================================================  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  background: rgb(245, 233, 182);
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  color: rgb(32, 23, 18);
+}
+
+.container.darkmode {
+  background: rgb(3, 26, 41);
+  color: rgb(245, 233, 182);
+}
+
+.container.darkmode .switch {
+  border: 2px solid rgb(245, 233, 182);
+}
+
+.container.darkmode .switch-button {
+  background: rgb(245, 233, 182);
+}
+
+.container.darkmode .title {
+  border: 2px solid rgb(245, 233, 182);
+  background:rgb(3, 26, 41);
+}
+
+.container.darkmode .information {
+  border: 2px solid rgb(245, 233, 182);
+  background: palevioletred;
+}
+
+.container.darkmode .button {
+  border: 2px solid rgb(245, 233, 182);
+  background: rgb(196, 51, 82);
+}
+
+.container.darkmode .title {
+  border: 2px solid rgb(245, 233, 182);
+  background: rgb(3, 26, 41);
+}
+
+.container.darkmode .playlist {
+  border: 2px solid rgb(245, 233, 182);
+  background: rgb(3, 26, 41);
+}
+
+.switch {
+  width: 20px;
+  height: 10px;
+  border: 2px solid rgb(32, 23, 18);
+  padding: 20px;
+  position: relative;
+}
+
+.switch-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgb(46, 22, 8);
+}
+
+.title {
+  width: 400px;
+  margin: 0 auto;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  border: 2px solid rgb(32, 23, 18);
+  z-index: 4;
+  padding: 10px;
+  background: rgb(245, 233, 182);
+}
+
+.information {
+  width: 400px;
+  height: auto;
+  border: 2px solid rgb(46, 22, 8);
+  background: rgb(255, 166, 0);
+  position: fixed;
+  top: 28%;
+  left: 29%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  text-align: left;
+  z-index: 2;
+}
+
+.click-me {
+  font-style: italic;
+}
+
+.hide {
+  display: none;
+}
+
+.button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(46, 22, 8);
+  background: rgb(199, 99, 41);
+  position: fixed;
+  top: 35%;
+  right: 10%;
+  z-index: 2;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button {
+  -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+
+.moodboard-1 {
+  width: 250px;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  right: 20%;
+  z-index: 2;
+}
+
+.moodboard-4 {
+  width: 250px;
+  height: auto;
+  position: fixed;
+  top: 10%;
+  left: 15%;
+  z-index: 1;
+}
+
+.moodboard-6 {
+  width: 320px;
+  height: auto;
+  position: fixed;
+  top: 70%;
+  left: 45%;
+  z-index: 3;
+}
+
+.moodboard-8 {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  right: 5%;
+  z-index: 1;
+}
+
+.moodboard-10 {
+  width: 400px;
+  height: auto;
+  position: fixed;
+  top: 23%;
+  right: 22%;
+  z-index: 1;
+}
+
+.moodboard-11 {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  top: 10%;
+  right: 7%;
+  z-index: 1;
+}
+
+.moodboard-12 {
+  width: 300px;
+  height: auto;
+  position: fixed;
+  top: 65%;
+  left: 17%;
+  z-index: 1;
+}
+
+.moodboard-13 {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  top: 68%;
+  left: 2%;
+  z-index: 2;
+}
+
+.moodboard-13 {
+  -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+
+.playlist {
+  position: fixed;
+  top: 20%;
+  left: 5%;
+  z-index: 1;
+  width: 324px;
+  height: auto;
+  background: rgb(245, 233, 182);
+  border: 2px solid rgb(46, 22, 8);
+  padding: 10px;
+}
+
