@@ -1,0 +1,244 @@
+/**  ========================================================================== 
+
+This is where your custom styles begin. 
+
+==========================================================================  */
+body {
+  margin: 0;
+  background-image: linear-gradient(#1D2817, #8F9B72);
+  font-family: "Pragmatica Extended", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  height: 10200px;
+  width: 100%;
+}
+
+.wrapper_title {
+  height: 828px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+.wrapper_image_1 {
+  margin: 0;
+  height: 828px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.spacer {
+  height: 180px;
+  width: 100%;
+}
+
+.spacer_i {
+  height: 40px;
+  width: 100%;
+}
+
+.spacer_ii {
+  height: 15vh;
+  width: 100%;
+}
+
+.spacer_iii {
+  height: 25vh;
+  width: 100%;
+}
+
+.title_i {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.title {
+  font-size: 18vw;
+  font-weight: 700;
+  font-style: oblique;
+  color: white;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(255, 255, 255, 0.795), 0 0 40px rgba(255, 255, 255, 0.671);
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px rgba(255, 255, 255, 0.795), 0 0 40px rgba(255, 255, 255, 0.671);
+  }
+}
+
+
+
+.background_1 {
+  height: 828px;
+  width: 100%;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.wrapper_text {
+  margin: 0 auto;
+  height: 828px;
+  width: 100%;
+  max-width: 959px;
+  z-index: 2;
+  position: relative;
+}
+
+.text {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#not-one {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#not-one:hover {
+  font-weight: 300;
+}
+
+#shine {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#shine:hover {
+  text-shadow: 0px 0px 30px white;
+}
+
+#yourself {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#yourself:hover {
+  letter-spacing: 30px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#never {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#never:hover {
+  color: transparent;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: white;
+}
+
+#yes {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#yes:hover {
+  font-family: "Halogen", sans-serif;
+  font-weight: 400;
+}
+
+|#mighty {
+  font-size: 8.4vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#mighty:hover {
+  font-family: "Halogen", sans-serif;
+  font-size: 7.6vw;
+  text-shadow: 0px 0px 30px white;
+}
+
+.circle {
+  height: 680px;
+  width: 680px;
+  background: radial-gradient(#ffffff, #53584e00);
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+100%,0% { opacity: 1; }
+50% { opacity: 0; }
+}
+
+@keyframes fadeinout {
+100%,0% { opacity: 1; }
+50% { opacity: 0; }
+}
+
+.wrapper_3 {
+  width: 959;
+  position: relative;
+  display: inline-block;
+}
+
+.trees_gif {
+  width: 959px;
+  position: relative;
+  z-index: 98;
+}
+
+.wrapper_image_2 {
+  padding-top: 7520px;
+  height: 800px;
+  width: 1440px;
+  z-index: 1;
+  position: relative;
+  
+}
+
+.background_2 {
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+@media (max-width: 800px) {
+  .body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  }
+  .wrapper_image_1 {
+    margin: 0;
+    height: 0px;
+    width: 0px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .text {
+   padding-top: 828px;
+  }
+}
