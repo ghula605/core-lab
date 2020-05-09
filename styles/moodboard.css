@@ -61,11 +61,12 @@ body {
 }
 
 .switch {
-  width: 20px;
-  height: 10px;
+  width: 50px;
+  height: 25px;
   border: 2px solid rgb(32, 23, 18);
-  padding: 20px;
+  float: left;
   position: relative;
+  margin: 30px;
 }
 
 .switch-button {
@@ -79,7 +80,7 @@ body {
 
 .title {
   width: 400px;
-  margin: 0 auto;
+  margin: 30px auto;
   font-family: "Space Mono", monospace;
   text-align: center;
   font-size: 60px;
@@ -132,7 +133,7 @@ body {
 }
 
 .button {
-  -webkit-animation: rotation 5s infinite linear;
+  -webkit-animation: rotation 1s infinite linear;
 }
 
 @-webkit-keyframes rotation {
@@ -147,7 +148,7 @@ body {
 .moodboard-1 {
   width: 250px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 50%;
   right: 20%;
   z-index: 2;
@@ -156,7 +157,7 @@ body {
 .moodboard-4 {
   width: 250px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 10%;
   left: 15%;
   z-index: 1;
@@ -165,7 +166,7 @@ body {
 .moodboard-6 {
   width: 320px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 70%;
   left: 45%;
   z-index: 3;
@@ -174,7 +175,7 @@ body {
 .moodboard-8 {
   width: 200px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 50%;
   right: 5%;
   z-index: 1;
@@ -183,7 +184,7 @@ body {
 .moodboard-10 {
   width: 400px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 23%;
   right: 22%;
   z-index: 1;
@@ -192,7 +193,7 @@ body {
 .moodboard-11 {
   width: 200px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 10%;
   right: 7%;
   z-index: 1;
@@ -201,7 +202,7 @@ body {
 .moodboard-12 {
   width: 300px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 65%;
   left: 17%;
   z-index: 1;
@@ -210,7 +211,7 @@ body {
 .moodboard-13 {
   width: 200px;
   height: auto;
-  position: fixed;
+  position: absolute;
   top: 68%;
   left: 2%;
   z-index: 2;
