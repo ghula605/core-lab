@@ -1,0 +1,72 @@
+/**  ========================================================================== 
+
+This is where your custom styles begin. 
+
+==========================================================================  */
+
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+  }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(43deg, #52db7c, #f0d56a, #f15eb1, #8f5ef1, #46b1ee);
+    background-size: 1000% 1000%;
+    font-family: "Helvetica", sans-serif;
+    -webkit-animation: AnimationName 31s ease infinite;
+    -moz-animation: AnimationName 31s ease infinite;
+    animation: AnimationName 31s ease infinite;
+}
+    
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.menu {
+    width: 191px;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.links {
+    width: 190px;
+    height: 66px;
+    border: 2px solid black;
+    border-top: none;
+    padding: 22px;
+}
+
+#home-icon {
+    height: 100px;
+    border-top: 2px solid black;
+}
+
+.socialmedia {
+    width: 190px;
+    height: 312px;
+    border: 2px solid black;
+    border-top: none;
+    padding: 25px;
+}
