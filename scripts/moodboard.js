@@ -56,4 +56,4 @@ $( function() {
         function(){$(this).animate({width: "210px", height:"auto"}, 250);},        
         function(){$(this).animate({width: "200px", height:"auto"}, 250);});
         
-  })
+})
