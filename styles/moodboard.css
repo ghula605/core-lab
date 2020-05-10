@@ -91,6 +91,11 @@ body {
   background: rgb(245, 233, 182);
 }
 
+.container.darkmode .title {
+  border: none;
+  background: none;
+}
+
 .information {
   width: 400px;
   height: auto;
@@ -256,6 +261,10 @@ body {
     flex-wrap: wrap;
   }
 
+  .switch {
+    margin-bottom: 0;
+  }
+
   .title {
     position: relative;
     top: auto;
@@ -267,10 +276,12 @@ body {
   }
   
   .information {
+    text-align: center;
     position: relative;
+    font-size: 18px;
     top: auto;
     left: auto;
-    width: 300px;
+    width: 300px;x
   }
   
   .click-me {
@@ -281,19 +292,27 @@ body {
     display: none;
   }
   
-  .button {
+  .playlist {
     position: relative;
     top: auto;
-    right: auto;
-    width: 270px;
-    height: 270px;
+    left: auto;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border: none;
+    background: none;
   }
+
 
   .flex-image {
     width: 100%;
     max-width: 300px;
     flex-basis: 40%;
-    padding-top: 20px;
+  }
+
+  .button {
+    display: none;
   }
   
   .moodboard-1 {
@@ -301,6 +320,7 @@ body {
     top: auto;
     right: auto;
     width: 300px;
+    padding-top: 20px;
   }
   
   .moodboard-4 {
@@ -308,6 +328,7 @@ body {
     top: auto;
     left: auto;
     width: 300px;
+    padding-top: 20px;
   }
   
   .moodboard-6 {
@@ -315,6 +336,7 @@ body {
     top: auto;
     left: auto;
     width: 300px;
+    padding-top: 20px;
   }
   
   .moodboard-8 {
@@ -322,6 +344,7 @@ body {
     top: auto;
     right: auto;
     width: 300px;
+    padding-top: 20px;
   }
   
   .moodboard-10 {
@@ -329,6 +352,7 @@ body {
     top: auto;
     right: auto;
     width: 300px;
+    padding-top: 20px;
   }
   
   .moodboard-11 {
@@ -336,6 +360,7 @@ body {
     top: auto;
     right: auto;
     width: 300px;
+    padding-top: 20px;
   }
   
   .moodboard-12 {
@@ -343,6 +368,7 @@ body {
     top: auto;
     left: auto;
     width: 300px;
+    padding-top: 20px;
   }
   
   .moodboard-13 {
@@ -350,11 +376,5 @@ body {
     top: auto;
     left: auto;
     width: 300px;
-  }
-  
-  .playlist {
-    position: relative;
-    top: auto;
-    left: auto;
-    width: 300px;
+    padding-top: 20px;
   }
