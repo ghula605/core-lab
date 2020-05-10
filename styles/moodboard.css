@@ -247,18 +247,22 @@ body {
   .container {
     height: 100vh;
     overflow: scroll;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .title {
-    width: 400px;
-    margin: 30px auto;
-    font-family: "Space Mono", monospace;
+    position: relative;
+    top: auto;
+    left: auto;
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
     border: none;
-    z-index: 4;
-    padding: 10px;
     background: none;
   }
   
@@ -266,6 +270,7 @@ body {
     position: relative;
     top: auto;
     left: auto;
+    width: 300px;
   }
   
   .click-me {
@@ -279,59 +284,77 @@ body {
   .button {
     position: relative;
     top: auto;
-    left: auto;
+    right: auto;
+    width: 270px;
+    height: 270px;
+  }
+
+  .flex-image {
+    width: 100%;
+    max-width: 300px;
+    flex-basis: 40%;
+    padding-top: 20px;
   }
   
   .moodboard-1 {
     position: relative;
     top: auto;
-    left: auto;
+    right: auto;
+    width: 300px;
   }
   
   .moodboard-4 {
     position: relative;
     top: auto;
     left: auto;
+    width: 300px;
   }
   
   .moodboard-6 {
     position: relative;
     top: auto;
     left: auto;
+    width: 300px;
   }
   
   .moodboard-8 {
     position: relative;
     top: auto;
-    left: auto;
+    right: auto;
+    width: 300px;
   }
   
   .moodboard-10 {
     position: relative;
     top: auto;
-    left: auto;
+    right: auto;
+    width: 300px;
   }
   
   .moodboard-11 {
     position: relative;
     top: auto;
-    left: auto;
+    right: auto;
+    width: 300px;
   }
   
   .moodboard-12 {
     position: relative;
     top: auto;
     left: auto;
+    width: 300px;
   }
   
   .moodboard-13 {
     position: relative;
     top: auto;
     left: auto;
+    width: 300px;
   }
   
   .playlist {
     position: relative;
     top: auto;
     left: auto;
+    width: 300px;
   }
