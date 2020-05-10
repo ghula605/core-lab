@@ -19,11 +19,4 @@ $( function() {
 
     });
 
-    //toggle beige button
-    $( ".button-beige" ).click( function() {
-
-        $(".container").toggleClass("basicmode");
-
-    });
-
 })
