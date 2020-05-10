@@ -77,32 +77,3 @@ body {
     position: relative;
     padding-top: 245px;
 }
-
-.title {
-    position: relative;
-    float: right;
-    right: 23%;
-    top: 70px;
-}
-
-.corona-update {
-    position: relative;
-    float: right;
-    width: 250px;
-    height: auto;
-    right: -500px;
-    top: 50px;
-}
-
-.corona-update  {
-    -webkit-animation: rotation 4s infinite linear;
-  }
-  
-  @-webkit-keyframes rotation {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(359deg);
-    }
-  }
