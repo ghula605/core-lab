@@ -148,7 +148,7 @@ This is where your custom styles begin.
   letter-spacing: 1px;
 }
 
-#body_paragraph {
+#body-paragraph {
   padding-top: 20px;
   padding-right: 80px;
   font-size: 40px;
@@ -156,7 +156,7 @@ This is where your custom styles begin.
 
 }
 
-#body_paragraph_arb {
+#body-paragraph-arb {
   font-family: 'Tajawal', sans-serif;
   font-size: 42px;
   text-align: right;
@@ -164,7 +164,6 @@ This is where your custom styles begin.
   font-weight: 300;
   padding-top: 20px;
   padding-right: 110px;
-  letter-spacing: 2.5px;
 
 }
 
