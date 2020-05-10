@@ -18,65 +18,81 @@
     <!-- This is where the style CSS files live. -->
     <!-- Hierchy and order of links matter! "reset.css" goes before "style.css" -->
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style_2.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Tajawal:300,400,500,700&display=swap&subset=arabic" rel="stylesheet">
 </head>
 
 
-<body>
+<body class= "home">
     <!-- Inside the body, I've created a div with a class of "home".
-         This is you will begin building your own online home! -->
-    <div class="wrapper">
-         <div class="menu">
-            <a id="name" style="color:#000; text-decoration:none" href="https://ghula605.github.io/core-lab/">ALI WAQAR</a>
-            <p class="links">
-                <a id="email" style="color:#000; text-decoration:none" href="mailto: abc@example.com">EMAIL</a><br><br><br><br>
-                <a id="instagram" style="color:#000; text-decoration:none" href="https://www.instagram.com/ibn_waqar/?hl=en">INSTAGRAM</a><br>
-                <a id="linkedin">LINKEDIN</a><br>
-                <a id="behance">BEHANCE</a>
-            </p>
+         This is you will begin building your own online home! -->  
+    
+    <div class="container">
+
+        <div class="buttons">
+
+            <div class="button-pink"></div>
+            <div class="button-green"></div>
+
         </div>
+
         <div class="p1">
-            <div class="content_wrapper">
-            <a href="https://ghula605.github.io/core-lab/index_2.html">
-                <span class="pink"></span>
-            </a>
-            <div class="space"></div>
-            <a href="https://ghula605.github.io/core-lab/index_3.html">
-                <span class="green"></span>
-            </a>
-            <a id="about">ABOUT</a>
-            <p id="body_paragraph"> Ali Waqar is a graphic designer and artist based in New York and Muscat. He is interested in the interaction between typography and image as well as the development of solutions for multi-lingual design projects, especially in Arabic and English. Waqar studies at Parsons School of Design where he is on track to graduate with a BFA in Communication Design.</p>
-            <p id="body_paragraph_arb"> علي وقار مصمم جرافيك وفنان مقيم في نيويورك ومسقط. إنه مهتم بالتفاعل بين الطباعة والصورة  إلى تطوير الحلول لمشاريع التصميم متعددة اللغات، خاصة باللغة العربية والإنجليزية. يدرس وقار في مدرسة بارسونز للتصميم حيث يسير في طريقه للتخرج 
-            مع منتدى بواو الاسيوى في تصميم الاتصالات.</p>
-            </div>
-        </div>
-        <div class="p2">
-             <div class="content_wrapper">
-                <a id="work">WORK</a>
-                <p id="projects">
-                    <a class="expressions" style="color:#000; text-decoration:none" href="https://ghula605.github.io//core-lab/projects/expressions.html">EXPRESSIONS +</a><br>
-                    <a class="pov">POINTS OF VIEW +</a><br>
-                    <a class="final">FINAL PROJECT +</a><br>
-                    <a class="research">RESEARCH PROJECT +</a>
+
+            <div class="menu">
+
+                <a id="name" style="text-decoration: none;" href="https://ghula605.github.io/core-lab/">ALI WAQAR</a>
+                <p class="links">
+                    <a id="email" style="text-decoration: none;" href="mailto: abc@example.com">EMAIL</a><br><br><br><br>
+                    <a id="instagram" style="text-decoration: none;" href="https://www.instagram.com/ibn_waqar/?hl=en">INSTAGRAM</a><br>
+                    <a id="linkedin" style="text-decoration: none;" href="https://www.linkedin.com/in/ali-waqar-695a86171/">LINKEDIN</a><br>
+                    <a id="behance" style="text-decoration: none;" href="https://www.behance.net/aliwghulambaa6">BEHANCE</a>
+                    <a id="behance" style="text-decoration: none;" href="https://www.are.na/ali-waqar">ARENA</a>
                 </p>
+    
+            </div> 
+
+            <div class="content">
+            
+            <a id="about">ABOUT<span id="arb">/ARABIC</span></a>
+            <p class="text" id="body_paragraph"> Ali Waqar is a graphic designer and artist based in New York and Muscat. He is interested in the interaction bet-ween typography and image as well as the development of solutions for multilingual design projects, especially in Arabic and English. Waqar studies at Parsons School of Design where he is on track to graduate with a BFA in Communication Design.</p>
+
+            
             </div>
+
         </div>
-        <div class="p3">
-             <div class="content_wrapper_p3">
-                <div class="content_wrapper_p3_sub">
-                    <a id="favs">FAVORITE WORK OF THE WEEK</a><br>
-                    <img class="img" src="LWDM_ElenaMiska_Poster_FIU.png" alt="LWD Poster - Elena Miska"></img>
-                    <p id="description">This poster, designed by NYC based graphic designer Elena Miska, makes use of bold typography and color arrangements that make it stand out from alot of other content I have seen. <br>&nbsp;&nbsp;&nbsp;&nbsp;I particularly like the use of bold citrusy green and robust orange against the more subdued lilac. This differs greatly from alot of current work that uses heavily saturated red, greens, and blues.
-                    </p>
-                    <a id="link" style="color: #000; text-decoration:none" href="https://www.instagram.com/p/B3NH7D7B1IU/">Click here for more info</a>
-                </div>
+
+        <div class="p2">
+
+            <div class="content">
+
+                <a class="work">WORK<span id="projects">/PROJECTS</span><span id="assignments">/ASSIGNMENTS</span></a><br>
+
+                <p class="text">
+                    <a id="expressions" style="color:#000; text-decoration:none" href="https://ghula605.github.io//core-lab/projects/expressions.html">EXPRESSIONS +</a><br>
+                    <a id="pov" style="color:#000; text-decoration:none" href="https://ghula605.github.io//core-lab/projects/pov.html">POINTS OF VIEW +</a><br>
+                    <a id="final" style="color:#000; text-decoration:none" href="https://ghula605.github.io//core-lab/projects/final.html">FINAL PROJECT +</a>
+                </p>
+
+                <p class="text">
+                    <a id="albums" style="color:#000; text-decoration:none" href="https://ghula605.github.io//core-lab/assignments/albums.html">ALBUMS +</a><br>
+                    <a id="collage" style="color:#000; text-decoration:none" href="https://ghula605.github.io//core-lab/assignments/collage.html">COLLAGE +</a><br>
+                    <a id="moodboard" style="color:#000; text-decoration:none" href="https://ghula605.github.io//core-lab/assignments/moodboard.html">MOODBOARD +</a><br>
+                </p>
+
             </div>
+
         </div>
+
+        <!-- JQuery Library-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <!-- Jquery UI Library-->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+        <!-- Where the script file lives-->
+        <script src="./scripts/script.js"></script>
     </div>
 
-    <!-- This is where the script file lives. We will get to this later in the course -->
-    <script src="./scripts.js"></script>
 </body>
 
 </html>
