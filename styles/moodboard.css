@@ -92,8 +92,8 @@ body {
 }
 
 .container.darkmode .title {
-  border: none;
-  background: none;
+  border: 2px solid rgb(245, 233, 182);
+  background: rgb(3, 26, 41);
 }
 
 .information {
