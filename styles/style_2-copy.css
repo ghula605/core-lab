@@ -23,32 +23,18 @@ This is where your custom styles begin.
   letter-spacing: 2px
 }
 
-.menu {
-  padding: 50px;
-  height: 100vh;
-  width: 200px;
-  position: fixed;
-
-  float: left;
-  z-index: 2;
-}
-
-.links {
-  padding-top: 460px;
-}
-
 .buttons {
   position: fixed;
   right: 1%;
 }
 
-.button-white {
+.button-pink {
   width: 20px;
   height: 20px;
   border: 1px solid rgb(41, 28, 22);
-  background: rgb(255, 244, 210);
+  background: #EDBCF3;
   margin-top: 50px;
-  margin-right: 10px;
+  margin-right: 40px;
   z-index: 3;
   border-radius: 50%;
   position: relative;
@@ -68,13 +54,13 @@ This is where your custom styles begin.
   float: right;
 }
 
-.button-pink {
+.button-beige {
   width: 20px;
   height: 20px;
   border: 1px solid rgb(41, 28, 22);
-  background: #EDBCF3;
+  background: rgb(255, 244, 210);
   margin-top: 50px;
-  margin-right: 40px;
+  margin-right: 10px;
   z-index: 3;
   border-radius: 50%;
   position: relative;
@@ -87,6 +73,20 @@ This is where your custom styles begin.
   height: 100vh;
   margin: 0 auto;
   z-index: 1;
+}
+
+.menu {
+  padding: 50px;
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+
+  float: left;
+  z-index: 2;
+}
+
+.links {
+  padding-top: 460px;
 }
 
 .content {
