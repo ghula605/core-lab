@@ -23,8 +23,73 @@ This is where your custom styles begin.
   letter-spacing: 2px
 }
 
+.container.pinkmode {
+  color: #0D0261;
+}
+
+.container.pinkmode .menu{
+  color: #0D0261;
+  text-decoration: none;
+}
+
+.container.pinkmode .p1 {
+  background: #EDBCF3;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.container.pinkmode .p2 {
+  background: #B5AFDF;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.container.greenmode {
+  color: #006464;
+}
+
+.container.greenmode .menu{
+  color: #006464;
+}
+
+.container.greenmode .p1 {
+  background: #C9EAD7;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.container.greenmode .p2 {
+  background: #B6DFAF;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.menu {
+  padding: 50px;
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  float: left;
+  z-index: 2;
+  color: rgb(41, 28, 22);
+  text-decoration: none;
+}
+
+.links {
+  padding-top: 460px;
+}
+
 .buttons {
   position: fixed;
+  z-index: 3;
   right: 1%;
 }
 
@@ -54,39 +119,12 @@ This is where your custom styles begin.
   float: right;
 }
 
-.button-beige {
-  width: 20px;
-  height: 20px;
-  border: 1px solid rgb(41, 28, 22);
-  background: rgb(255, 244, 210);
-  margin-top: 50px;
-  margin-right: 10px;
-  z-index: 3;
-  border-radius: 50%;
-  position: relative;
-  float: right;
-}
-
 .p1 {
   background: rgb(255, 244, 210);
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
   z-index: 1;
-}
-
-.menu {
-  padding: 50px;
-  height: 100vh;
-  width: 200px;
-  position: fixed;
-
-  float: left;
-  z-index: 2;
-}
-
-.links {
-  padding-top: 460px;
 }
 
 .content {
