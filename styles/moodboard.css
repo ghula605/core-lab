@@ -242,3 +242,96 @@ body {
   padding: 10px;
 }
 
+@media screen and (max-width: 800px) {
+
+  .container {
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  .title {
+    width: 400px;
+    margin: 30px auto;
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    z-index: 4;
+    padding: 10px;
+    background: none;
+  }
+  
+  .information {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .click-me {
+    font-style: italic;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .button {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .moodboard-1 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .moodboard-4 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .moodboard-6 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .moodboard-8 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .moodboard-10 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .moodboard-11 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .moodboard-12 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .moodboard-13 {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  
+  .playlist {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
