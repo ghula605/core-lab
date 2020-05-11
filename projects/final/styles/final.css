@@ -83,15 +83,15 @@ body {
     float: right;
     right: 23%;
     top: 70px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
 }
 
 .corona-update {
     position: relative;
-    float: right;
     width: 250px;
     height: auto;
-    right: -500px;
     top: 50px;
+    left: 270px;
 }
 
 .corona-update  {
@@ -106,3 +106,12 @@ body {
         -webkit-transform: rotate(359deg);
     }
   }
+
+.alhamdulit {
+    width: 250px;
+    height: auto;
+    position: relative;
+    float: right;
+    top: 50px;
+    right: -500px;
+}

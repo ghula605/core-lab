@@ -19,4 +19,25 @@ $( function() {
 
     });
 
+    //toggle arabic about
+    $( "#arb" ).click( function() {
+
+         $(".container").toggleClass("arabic");
+    
+    });
+
+    //toggle projects
+    $( "#projects" ).click( function() {
+
+        $(".container").toggleClass("show");
+   
+   });
+
+    //toggle projects
+    $( "#assignments" ).click( function() {
+
+        $(".container").toggleClass("show-2");
+   
+   });
+
 })

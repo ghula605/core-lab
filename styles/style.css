@@ -12,6 +12,10 @@ This is where your custom styles begin.
   margin: 0;
 }
 
+a {
+  color: rgb(71, 24, 2);
+}
+
 .container {
   width: 100vw;
   height: 100%;
@@ -19,7 +23,7 @@ This is where your custom styles begin.
   margin: 0 auto;
   font-family: 'Tajawal', sans-serif;
   font-weight: 500;
-  color: rgb(41, 28, 22);
+  color: rgb(71, 24, 2);
   letter-spacing: 2px
 }
 
@@ -48,12 +52,16 @@ This is where your custom styles begin.
   z-index: 1;
 }
 
+.container.pinkmode a {
+  color: #0D0261;
+}
+
 .container.greenmode {
-  color: #006464;
+  color: #01504c;
 }
 
 .container.greenmode .menu{
-  color: #006464;
+  color: #01504c;
 }
 
 .container.greenmode .p1 {
@@ -70,6 +78,26 @@ This is where your custom styles begin.
   height: 100vh;
   margin: 0 auto;
   z-index: 1;
+}
+
+.container.greenmode a {
+  color: #01504c;
+}
+
+.container.arabic #body-paragraph-arb{
+  font-size: 50px;
+}
+
+.container.arabic #body-paragraph{
+  display: none;
+}
+
+.container.show .text.toggle{
+  font-size: 46px;
+}
+
+.container.show-2 .text-toggle-2{
+  font-size: 46px;
 }
 
 .buttons {
@@ -151,20 +179,20 @@ This is where your custom styles begin.
 #body-paragraph {
   padding-top: 20px;
   padding-right: 80px;
-  font-size: 40px;
+  font-size: 46px;
   font-weight: 200;
-
+  line-height: 48px;
 }
 
 #body-paragraph-arb {
   font-family: 'Tajawal', sans-serif;
-  font-size: 42px;
+  font-size: 0px;
   text-align: right;
-  line-height: 46px;
+  line-height: 52px;
   font-weight: 300;
   padding-top: 20px;
   padding-right: 110px;
-
+  letter-spacing: 1px;
 }
 
 .p2 {
@@ -180,19 +208,19 @@ This is where your custom styles begin.
   font-weight: bold;
 }
 
-#projects {
-  font-family: "Cormorant Infant", monospace;
-  font-weight: 500;
-  letter-spacing: 1px;
-}
-
-#assignments {
-  font-family: "Cormorant Infant", monospace;
-  font-weight: 500;
-  letter-spacing: 1px;
-}
-
 .text {
-  font-size: 40px;
+  font-size: 46px;
   font-weight: 200;
+}
+
+.text.projects {
+  margin-top: 60px;
+}
+
+.text.toggle {
+  font-size: 0px;
+}
+
+.text-toggle-2 {
+  font-size: 0px;
 }
