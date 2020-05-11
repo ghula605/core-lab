@@ -42,7 +42,7 @@ body {
 }
 
 .menu {
-    width: 191px;
+    width: 190px;
     height: 100vh;
     position: fixed;
     text-align: center;
@@ -79,24 +79,33 @@ body {
 }
 
 .desktop {
-    width: 100vw;
-    height: 100vh;
 }
 
 .text {
 
     text-align: left;
-    position: relative;
+    position: absolute;
     font-size: 30px;
     top: 13.5%;
-    left: 17%;
+    left: 18%;
     width: 680px;
-    height: 540px;
+    height: auto;
     border: 2px solid black;
     padding: 50px;
+    padding-bottom: 30px;;
+    font-weight: lighter;
+    background: rgba(175, 224, 203, 0.74);
 
 }
 
 .title {
-    font-weight: bold;
+    font-weight: normal;
+}
+
+.image {
+    position: absolute;
+    top: 13.5%;
+    left: 68%;
+    width: 392px;
+
 }
