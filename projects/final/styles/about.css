@@ -77,3 +77,26 @@ body {
     position: relative;
     padding-top: 245px;
 }
+
+.desktop {
+    width: 100vw;
+    height: 100vh;
+}
+
+.text {
+
+    text-align: left;
+    position: relative;
+    font-size: 30px;
+    top: 13.5%;
+    left: 17%;
+    width: 680px;
+    height: 540px;
+    border: 2px solid black;
+    padding: 50px;
+
+}
+
+.title {
+    font-weight: bold;
+}
