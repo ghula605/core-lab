@@ -54,12 +54,13 @@ body {
 }
 
 .menu {
-    width: 191px;
+    width: 190px;
     height: 100vh;
     position: fixed;
     text-align: center;
     font-size: 18px;
     letter-spacing: 2px;
+    background: rgba(228, 230, 247, 0.74);
 }
 
 .links {
@@ -104,6 +105,8 @@ body {
     height: auto;
     top: 6%;
     left: 270px;
+    background: rgba(228, 230, 247, 0.74);
+    border-radius: 50%;
 }
 
 .corona-update  {
@@ -126,4 +129,5 @@ body {
     float: right;
     top: 50px;
     right: -500px;
+    opacity: 80%;
 }
