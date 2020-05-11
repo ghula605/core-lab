@@ -96,6 +96,10 @@ a {
   font-size: 46px;
 }
 
+.container.show .spacer{
+  height: 30px;
+}
+
 .container.show-2 .text-toggle-2{
   font-size: 46px;
 }
@@ -219,8 +223,15 @@ a {
 
 .text.toggle {
   font-size: 0px;
+  font-family: "Cormorant Infant", monospace;
+}
+
+.spacer {
+  height: 0px;
+  width: 100vw;
 }
 
 .text-toggle-2 {
   font-size: 0px;
+  font-family: "Cormorant Infant", monospace;
 }
