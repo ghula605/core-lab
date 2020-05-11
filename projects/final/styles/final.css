@@ -41,6 +41,18 @@ body {
     100%{background-position:0% 50%}
 }
 
+@keyframes float {
+	0% { ;
+		transform: translatey(0px);
+	}
+	50% {;
+		transform: translatey(-20px);
+	}
+	100% {;
+		transform: translatey(0px);
+	}
+}
+
 .menu {
     width: 191px;
     height: 100vh;
@@ -65,7 +77,7 @@ body {
 
 .socialmedia {
     width: 190px;
-    height: 312px;
+    height: 315px;
     border: 2px solid black;
     border-top: none;
     padding: 25px;
@@ -81,21 +93,21 @@ body {
 .title {
     position: relative;
     float: right;
-    right: 23%;
-    top: 70px;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    right: 24%;
+    top: 10%;
+    animation: float 4s ease-in-out infinite;
 }
 
 .corona-update {
     position: relative;
     width: 250px;
     height: auto;
-    top: 50px;
+    top: 6%;
     left: 270px;
 }
 
 .corona-update  {
-    -webkit-animation: rotation 4s infinite linear;
+    -webkit-animation: rotation 3s infinite linear;
   }
   
   @-webkit-keyframes rotation {
