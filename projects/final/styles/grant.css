@@ -241,7 +241,7 @@ body {
         text-align: center;
         position: relative;
         font-size: 16px;
-        padding: 40px;
+        padding: 30px;
         left: 54px;
         top: 60px;
         background: rgb(228, 230, 247);
@@ -271,7 +271,7 @@ body {
         font-family: monospace;
         font-weight: 500;
         top: 0;
-        left: 58px;
+        left: 57px;
         width: 270px;
         height: auto;
         border: 2px solid black;
