@@ -152,9 +152,8 @@ body {
 }
 
 .title {
-    position: relative;
-    float: right;
-    right: 22.5%;
+    position: absolute;
+    right: 22%;
     top: 10%;
 }
 
@@ -228,3 +227,95 @@ body {
     animation: float 8s ease-in-out infinite;
 }
 
+@media screen and (max-width: 800px) {
+
+    .container {
+        height: 100vh;
+        overflow: scroll;
+        width: 100vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+    #homeicon {
+        width: 75px;
+        width: auto;
+    }
+    
+
+    .menu {
+        z-index: 3;
+        background: rgb(228, 230, 247);
+        font-size: 12px;
+
+    }
+
+    .links {
+        width: 150px;
+        height: 50px;
+        border: 2px solid black;
+        border-top: none;
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+
+    .socialmedia {
+        align-items: left;
+        background: rgb(228, 230, 247);
+        width: 150px;
+    }
+
+    .icon {
+        width: 30px;
+        height: auto;
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .flex-image {
+        width: 100%;
+        max-width: 300px;
+        flex-basis: 40%;
+      }
+
+    .title {
+        position: absolute;
+        top: -100px;
+        width: 300px;
+    }
+
+    .corona-update {
+        display: none;
+    }
+
+    .alhamdulit {
+        display: none;
+    }
+
+    .haramood {
+        display: none;
+    }
+
+    .queer {
+        display: none;
+    }
+
+    .galb {
+        position: absolute;
+        width: 300px;
+    }
+
+    .corona-message {
+      text-align: center;
+      position: absolute;
+      font-size: 18px;
+      top: 50%;
+      left: auto;
+      width: 300px;
+      z-index: 2;
+      background: rgb(228, 230, 247);
+    }
