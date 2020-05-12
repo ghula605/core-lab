@@ -129,7 +129,7 @@ body {
 .title {
     position: relative;
     float: right;
-    right: 24%;
+    right: 22.5%;
     top: 10%;
     animation: float 4s ease-in-out infinite;
 }
@@ -160,10 +160,17 @@ body {
 .alhamdulit {
     width: 250px;
     height: auto;
-    position: relative;
-    float: right;
-    top: 50px;
-    right: -500px;
+    position: absolute;
+    top: 8%;
+    right: 5%;
     opacity: 80%;
 }
 
+.haramood {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 64.5%;
+    left: 19%;
+    opacity: 80%;
+}

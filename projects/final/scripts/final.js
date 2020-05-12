@@ -12,11 +12,4 @@ $( function() {
     
     })
 
-        //toggle info
-    $( ".corona-update" ).click( function() {
-
-        $(".container-mask").toggleClass("show2");
-    
-    })
-
 })
