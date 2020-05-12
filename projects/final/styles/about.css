@@ -93,7 +93,7 @@ body {
     height: auto;
     border: 2px solid black;
     padding: 50px;
-    padding-bottom: 30px;;
+    padding-bottom: 20px;;
     font-weight: lighter;
     background: rgba(228, 230, 247, 0.74);
 
@@ -109,4 +109,19 @@ body {
     left: 68%;
     width: 392px;
 
+}
+
+.subtext {
+    position: absolute;
+    font-size: 12px;
+    font-family: "Helvetica", monospace;
+    font-weight: 600;
+    font-style: italic;
+    top: 85%;
+    left: 68%;
+    width: 392px;
+    height: auto;
+    border: 2px solid black;
+    background: rgba(228, 230, 247, 0.74);
+    padding: 5px;
 }

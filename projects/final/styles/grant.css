@@ -104,9 +104,9 @@ body {
 }
 
 .link {
-    font-family: "Halogen", monospace;
     font-size: 16px;
     font-weight: 500;
+    font-style: italic;
 }
 
 .image {
@@ -115,4 +115,19 @@ body {
     left: 68%;
     width: 392px;
 
+}
+
+.subtext {
+    position: absolute;
+    font-size: 16px;
+    font-family: "Helvetica", monospace;
+    font-weight: 500;
+    font-style: italic;
+    top: 83%;
+    left: 68%;
+    width: 392px;
+    height: auto;
+    border: 2px solid black;
+    background: rgba(228, 230, 247, 0.74);
+    padding: 5px;
 }
