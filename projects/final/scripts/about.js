@@ -3,3 +3,13 @@
 
 console.log('Is the scripts file working?');
 
+$( function() {
+    
+    //toggle info
+    $( ".burger" ).click( function() {
+
+        $(".menu").toggleClass("show");
+    
+    })
+
+})
