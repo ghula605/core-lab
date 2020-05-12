@@ -12,7 +12,7 @@ body {
     margin: 0;
   }
 
-.wrapper {
+.container {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(43deg, #52db7c, #f0d56a, #f15eb1, #8f5ef1, #46b1ee);
@@ -21,7 +21,6 @@ body {
     -webkit-animation: AnimationName 31s ease infinite;
     -moz-animation: AnimationName 31s ease infinite;
     animation: AnimationName 31s ease infinite;
-    z-index: 1;
 }
     
 @-webkit-keyframes AnimationName {
@@ -72,8 +71,7 @@ body {
 
 #home-icon {
     height: 100px;
-    border: 2px solid black;
-    padding: 20px;
+    border-top: 2px solid black;
 }
 
 .socialmedia {
@@ -149,6 +147,17 @@ body {
         z-index: 3;
     }
 
+    .burger {
+        width: 40px;
+        height: auto;
+        position: absolute;
+        right: 15px;
+        z-index: 5;
+        top: 15px;
+        background: rgb(228, 230, 247);
+        border-radius: 50%;
+    }
+
     .menu {
         z-index: -1;
         background: rgb(228, 230, 247);
@@ -169,17 +178,7 @@ body {
         align-items: center;
         flex-wrap: wrap;
     }
-
-    .burger {
-        width: 40px;
-        height: auto;
-        position: absolute;
-        right: 15px;
-        z-index: 5;
-        top: 15px;
-        background: rgb(228, 230, 247);
-        border-radius: 50%;
-    }
+    
 
     #home-icon {
         width: 150px;

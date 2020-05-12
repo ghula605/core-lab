@@ -160,6 +160,165 @@ body {
     right: 40%;
 }
 
+@media screen and (max-width: 800px) {
 
+    .container {
+        height: 100vh;
+        width: auto;
+    }
+
+    .menu.show {
+        z-index: 3;
+    }
+
+    .burger {
+        width: 40px;
+        height: auto;
+        position: absolute;
+        right: 15px;
+        z-index: 5;
+        top: 15px;
+        background: rgb(228, 230, 247);
+        border-radius: 50%;
+    }
+
+    .menu {
+        z-index: -1;
+        background: rgb(228, 230, 247);
+        font-size: 12px;
+        height: 400px;
+        width: 130px;
+        position: relative;
+        margin-right: 20px;
+        float: right;
+        top: 42px;
+    }
+
+    #home-icon {
+        width: 150px;
+        height: auto;
+    }
+
+    .svg {
+        width: 90px;
+    }
+
+    .links {
+        height:20px;
+        padding: 20px;
+        padding-bottom: 30px;
+        width: 130px;
+        letter-spacing: normal;
+    }
+
+    #home-icon  {
+        width: 130px;
+        height: 60px;
+        border: 2px solid black;
+        bottom: 10px;
+        padding: 2px;
+    }
+
+    .socialmedia {
+        align-items: left;
+        background: rgb(228, 230, 247);
+        width: 130px;
+        height: auto;
+    }
+
+    .icon {
+        width: 30px;
+        height: auto;
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .flex-image {
+        width: 100%;
+        max-width: 300px;
+        flex-basis: 40%;
+    }
+
+    .image-1 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-2 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-3 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-4 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-5 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-6 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-7 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-8 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-9 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+    .image-10 {
+        margin: 10px;
+        position: relative;
+        top: 0;
+        left: 44px;
+        width: 270px;
+    }
+
+}
 
 
