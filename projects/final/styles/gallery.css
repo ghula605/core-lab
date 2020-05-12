@@ -14,7 +14,7 @@ body {
 
 .container {
     width: 100%;
-    min-height: 1000vh;
+    min-height: 460vh;
     overflow: scroll;
     background: linear-gradient(43deg, #52db7c, #f0d56a, #f15eb1, #8f5ef1, #46b1ee);
     background-size: 1000vw 1000vh;
@@ -117,7 +117,7 @@ body {
     height: auto;
     position: absolute;
     top: 175%;
-    left: 45%;
+    left: 40%;
 }
 
 .image-6 {
@@ -133,32 +133,31 @@ body {
     height: auto;
     position: absolute;
     top: 250%;
-    right: 15%;
+    right: 9%;
 }
 
 .image-8 {
     width: 445px;
     height: auto;
     position: absolute;
-    top: 290%;
-    right: 15%;
+    top: 305%;
+    left: 30%;
 }
 
 .image-9 {
     width: 445px;
     height: auto;
     position: absolute;
-    top: 310%;
-    right: 15%;
+    top: 340%;
+    left: 50%;
 }
 
 .image-10 {
     width: 445px;
     height: auto;
     position: absolute;
-    top: 50%;
-    right: 20%;
-    display: none;
+    top: 390%;
+    right: 40%;
 }
 
 
