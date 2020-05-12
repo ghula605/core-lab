@@ -40,6 +40,12 @@ body {
     100%{background-position:0% 50%}
 }
 
+.burger {
+    width: 0;
+    height: 0;
+    z-index: -1;
+}
+
 .menu {
     width: 190px;
     height: 100vh;
@@ -48,6 +54,10 @@ body {
     font-size: 18px;
     letter-spacing: 2px;
     background: rgba(228, 230, 247, 0.74);
+    left: 0;
+    right: 0;
+    z-index: 2;
+    top: 0px;
 }
 
 .links {
@@ -60,8 +70,8 @@ body {
 
 #home-icon {
     height: 100px;
-    border-top: 2px solid black;
-
+    border: 2px solid black;
+    padding: 20px;
 }
 
 .socialmedia {
