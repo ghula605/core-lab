@@ -92,8 +92,8 @@ body {
 }
 
 .container.darkmode .title {
-  border: 2px solid rgb(245, 233, 182);
-  background: rgb(3, 26, 41);
+  border: none;
+  background: none;
 }
 
 .information {
@@ -275,13 +275,13 @@ body {
     background: none;
   }
   
-  .information {
+  .text {
     text-align: center;
     position: relative;
     font-size: 18px;
     top: auto;
     left: auto;
-    width: 300px;
+    width: 300px;x
   }
   
   .click-me {
@@ -312,7 +312,7 @@ body {
   }
 
   .button {
-    display: none;
+      display: none;
   }
   
   .moodboard-1 {
