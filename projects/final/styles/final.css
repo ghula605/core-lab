@@ -384,6 +384,8 @@ body {
         position: relative;
         font-size: 16px;
         padding: 40px;
+        left: 54px;
+        top: 350px;
         background: rgb(228, 230, 247);
         z-index: 2;
 
