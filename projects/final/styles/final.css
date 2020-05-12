@@ -88,6 +88,19 @@ body {
 	}
 }
 
+@keyframes float2 {
+	0% { ;
+		transform: translatey(0px);
+	}
+	50% {;
+		transform: translatey(-15px);
+	}
+	100% {;
+		transform: translatey(0px);
+	}
+}
+
+
 .menu {
     width: 190px;
     height: 100vh;
@@ -166,11 +179,11 @@ body {
     opacity: 80%;
 }
 
-.haramood {
-    width: 250px;
+.galb {
+    width: 350px;
     height: auto;
     position: absolute;
-    top: 64.5%;
-    left: 19%;
-    opacity: 80%;
+    top: 65%;
+    right: 3%;
+    animation: float2 6s ease-in-out infinite;
 }
