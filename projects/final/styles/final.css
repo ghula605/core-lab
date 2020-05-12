@@ -46,7 +46,7 @@ body {
 }
 
 .corona-message-2 {
-    width: 0;
+    width: 100vw;
     height: 0;
     z-index: -1;
     position: absolute;
@@ -239,7 +239,7 @@ body {
     .wrapper {
         overflow: scroll;
         width: 100vw;
-        height: 300vh;
+        height: 2000px;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
@@ -311,7 +311,7 @@ body {
         top: -120px;
         width: 270px;
         left: 15%;
-        z-index: 1;
+        z-index: 2;
     }
 
     .corona-update {
@@ -331,10 +331,9 @@ body {
     }
 
     .galb {
-        position: absolute;
+        position: relative;
         width: 300px;
-        left: auto;
-        z-index: -1;
+        z-index: 1;
     }
 
     .corona-message {
@@ -352,7 +351,7 @@ body {
         font-size: 16px;
         padding: 40px;
         background: rgb(228, 230, 247);
-        z-index: 1;
+        z-index: 2;
         
       }
 }
