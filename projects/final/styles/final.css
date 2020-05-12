@@ -89,11 +89,23 @@ body {
 }
 
 @keyframes float2 {
-	0% { ;
+	100% { ;
 		transform: translatey(0px);
 	}
 	50% {;
 		transform: translatey(-15px);
+	}
+	0% {;
+		transform: translatey(0px);
+	}
+}
+
+@keyframes float3 {
+	0% { ;
+		transform: translatey(0px);
+	}
+	50% {;
+		transform: translatey(-10px);
 	}
 	100% {;
 		transform: translatey(0px);
@@ -157,7 +169,7 @@ body {
 }
 
 .corona-update  {
-    -webkit-animation: rotation 3s infinite linear;
+    -webkit-animation: rotation 8s infinite linear;
   }
   
   @-webkit-keyframes rotation {
@@ -173,7 +185,7 @@ body {
     width: 250px;
     height: auto;
     position: absolute;
-    top: 8%;
+    top: 67%;
     right: 5%;
     opacity: 80%;
 }
@@ -182,7 +194,17 @@ body {
     width: 350px;
     height: auto;
     position: absolute;
-    top: 66%;
-    right: 3%;
+    top: 67%;
+    left: 16%;
     animation: float2 6s ease-in-out infinite;
 }
+
+.queer{
+    width: 280px;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    animation: float 10s ease-in-out infinite;
+}
+
