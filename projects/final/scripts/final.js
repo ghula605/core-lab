@@ -12,4 +12,11 @@ $( function() {
     
     })
 
+    //toggle info
+    $( ".burger" ).click( function() {
+
+        $(".menu").toggleClass("show");
+    
+    })
+
 })

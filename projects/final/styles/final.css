@@ -239,8 +239,29 @@ body {
 @media screen and (max-width: 800px) {
 
 
-    .menu {
+    .container {
+        height: 100vh;
+        width: auto;
+        overflow: hidden;
+    }
+
+    .menu.show {
         z-index: 3;
+    }
+
+    .burger {
+        width: 40px;
+        height: auto;
+        position: absolute;
+        right: 15px;
+        z-index: 4;
+        top: 15px;
+        background: rgb(228, 230, 247);
+        border-radius: 50%;
+    }
+
+    .menu {
+        z-index: -1;
         background: rgb(228, 230, 247);
         font-size: 12px;
         height: 400px;
@@ -249,6 +270,7 @@ body {
         margin-right: 20px;
         float: right;
         top: -470px;
+
     }
 
     .wrapper {
