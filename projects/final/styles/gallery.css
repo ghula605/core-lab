@@ -17,7 +17,7 @@ body {
     height: 100vh;
     overflow: scroll;
     background: linear-gradient(43deg, #52db7c, #f0d56a, #f15eb1, #8f5ef1, #46b1ee);
-    background-size: 1000% 1000%;
+    background-size: 1000vw 1000vh;
     font-family: "Helvetica", sans-serif;
     -webkit-animation: AnimationName 31s ease infinite;
     -moz-animation: AnimationName 31s ease infinite;
@@ -81,6 +81,68 @@ body {
     padding-top: 245px;
 }
 
-.desktop {
+.image-1 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 13.5%;
+    left: 25%;
+    z-index: 2;
 }
+
+.image-2 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+}
+
+.image-3 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    display: none;
+}
+
+.image-5 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    display: none;
+}
+
+.image-7 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    display: none;
+}
+
+.image-8 {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    display: none;
+}
+
+.image-9 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    display: none;
+}
+
+
+
 
