@@ -264,6 +264,22 @@ body {
         left: 44px;
         width: 270px;
     }
+    
+    .subtext {
+        position: relative;
+        font-size: 11px;
+        font-family: monospace;
+        font-weight: 500;
+        top: 0;
+        left: 55px;
+        width: 270px;
+        height: auto;
+        border: 2px solid black;
+        background: rgba(228, 230, 247, 0.74);
+        padding: 10px;
+    }
+}
+
 
     .link {
         margin-top: 20px;
@@ -272,17 +288,4 @@ body {
         font-weight: 500;
     }
     
-    .subtext {
-        position: relative;
-        font-size: 11px;
-        font-family: monospace;
-        font-weight: 500;
-        top: 0;
-        left: 60px;
-        min-width: 270px;
-        height: auto;
-        border: 2px solid black;
-        background: rgba(228, 230, 247, 0.74);
-        padding: 10px;
-    }
 }
