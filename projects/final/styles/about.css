@@ -113,11 +113,11 @@ body {
 
 .subtext {
     position: absolute;
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Helvetica", monospace;
-    font-weight: 600;
+    font-weight: 500;
     font-style: italic;
-    top: 85%;
+    top: 84.5%;
     left: 68%;
     width: 392px;
     height: auto;
