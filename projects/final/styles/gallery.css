@@ -13,15 +13,13 @@ body {
   }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 1000vh;
     overflow: scroll;
     background: linear-gradient(43deg, #52db7c, #f0d56a, #f15eb1, #8f5ef1, #46b1ee);
     background-size: 1000vw 1000vh;
     font-family: "Helvetica", sans-serif;
-    -webkit-animation: AnimationName 31s ease infinite;
-    -moz-animation: AnimationName 31s ease infinite;
-    animation: AnimationName 31s ease infinite;
+
 }
     
 @-webkit-keyframes AnimationName {
@@ -102,12 +100,28 @@ body {
     width: 490px;
     height: auto;
     position: absolute;
-    top: 50%;
-    right: 20%;
-    display: none;
+    top: 115%;
+    left: 20%;
+
+}
+
+.image-4 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 180%;
+    right: 12%;
 }
 
 .image-5 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 245%;
+    left: 40%;
+}
+
+.image-6 {
     width: 490px;
     height: auto;
     position: absolute;
@@ -135,6 +149,15 @@ body {
 }
 
 .image-9 {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    display: none;
+}
+
+.image-10 {
     width: 490px;
     height: auto;
     position: absolute;
