@@ -71,7 +71,8 @@ body {
 
 #home-icon {
     height: 100px;
-    border-top: 2px solid black;
+    border: 2px solid black;
+    padding: 20px;
 }
 
 .socialmedia {
@@ -147,17 +148,6 @@ body {
         z-index: 3;
     }
 
-    .burger {
-        width: 40px;
-        height: auto;
-        position: absolute;
-        right: 15px;
-        z-index: 4;
-        top: 15px;
-        background: rgb(228, 230, 247);
-        border-radius: 50%;
-    }
-
     .menu {
         z-index: -1;
         background: rgb(228, 230, 247);
@@ -167,7 +157,7 @@ body {
         position: relative;
         margin-right: 20px;
         float: right;
-        top: -470px;
+        top: 42px;
     }
 
     .wrapper {
@@ -177,6 +167,17 @@ body {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+    }
+
+    .burger {
+        width: 40px;
+        height: auto;
+        position: absolute;
+        right: 15px;
+        z-index: 5;
+        top: 15px;
+        background: rgb(228, 230, 247);
+        border-radius: 50%;
     }
 
     #home-icon {

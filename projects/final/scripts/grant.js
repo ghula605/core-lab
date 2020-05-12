@@ -3,3 +3,15 @@
 
 console.log('Is the scripts file working?');
 
+$( function() {
+
+    // code will go inside here 
+
+    //toggle info
+    $( ".burger" ).click( function() {
+
+        $(".menu").toggleClass("show");
+    
+    })
+
+})
