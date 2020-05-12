@@ -181,13 +181,33 @@ body {
     }
   }
 
+  @-webkit-keyframes rotation2 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-359deg);
+    }
+  }
+
 .alhamdulit {
     width: 250px;
     height: auto;
     position: absolute;
-    top: 67%;
-    right: 5%;
+    top: 61%;
+    right: 7%;
     opacity: 80%;
+    -webkit-animation: rotation 8s infinite linear;
+}
+
+.haramood {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    top: 66%;
+    right: 9.5%;
+    opacity: 80%;
+    -webkit-animation: rotation2 14s infinite linear;
 }
 
 .galb {
@@ -196,7 +216,7 @@ body {
     position: absolute;
     top: 67%;
     left: 16%;
-    animation: float2 6s ease-in-out infinite;
+    animation: float2 5s ease-in-out infinite;
 }
 
 .queer{
@@ -205,6 +225,6 @@ body {
     position: absolute;
     top: 5%;
     right: 5%;
-    animation: float 10s ease-in-out infinite;
+    animation: float 8s ease-in-out infinite;
 }
 
