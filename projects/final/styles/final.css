@@ -127,6 +127,8 @@ body {
     font-size: 18px;
     letter-spacing: 2px;
     background: rgba(228, 230, 247, 0.74);
+    left: 0;
+    right: 0;
 }
 
 .links {
@@ -236,10 +238,23 @@ body {
 
 @media screen and (max-width: 800px) {
 
+
+    .menu {
+        z-index: 3;
+        background: rgb(228, 230, 247);
+        font-size: 12px;
+        height: 400px;
+        width: 130px;
+        position: relative;
+        right: 0;
+        float: right;
+        top: -100px;
+    }
+
     .wrapper {
         overflow: scroll;
         width: 100vw;
-        height: 1000px;
+        height: 800px;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
@@ -253,19 +268,6 @@ body {
 
     .svg {
         width: 90px;
-
-    }
-
-
-    .menu {
-        z-index: 3;
-        background: rgb(228, 230, 247);
-        font-size: 12px;
-        height: 400px;
-        width: 130px;
-        position: relative;
-        right: 1%;
-        top: -2000px:
     }
 
     .links {
@@ -309,7 +311,7 @@ body {
         left: auto;
         top: auto;
         right: auto;
-        top: -1020px;
+        top: -1030px;
         width: 270px;
         left: 15%;
         z-index: 2;
