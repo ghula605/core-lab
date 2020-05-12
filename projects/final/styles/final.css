@@ -205,24 +205,14 @@ body {
     }
   }
 
-.alhamdulit {
+.survey {
     width: 250px;
     height: auto;
     position: absolute;
     top: 61%;
     right: 7%;
     opacity: 80%;
-    -webkit-animation: rotation 8s infinite linear;
-}
-
-.haramood {
-    width: 180px;
-    height: auto;
-    position: absolute;
-    top: 66%;
-    right: 9.5%;
-    opacity: 80%;
-    -webkit-animation: rotation2 14s infinite linear;
+    -webkit-animation: rotation 10s infinite linear;
 }
 
 .galb {
