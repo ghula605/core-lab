@@ -23,7 +23,7 @@ body {
 .container-mask {
     position: ABSOLUTE;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     z-index: 2;
     display: none;
 }
@@ -31,7 +31,7 @@ body {
 .corona-message {
     font-family: "Helvetica", sans-serif;
     text-align: left;
-    position: absolute;
+    position: relative;
     font-size: 27px;
     top: 8%;
     left: 31.5%;
@@ -132,7 +132,8 @@ body {
 
 #home-icon {
     height: 100px;
-    border-top: 2px solid black;
+    border: 2px solid black;
+    padding: 20px;
 }
 
 .socialmedia {
@@ -246,7 +247,7 @@ body {
     }
 
     .svg {
-        width: 100px;
+        width: 90px;
 
     }
 
@@ -256,7 +257,7 @@ body {
         background: rgb(228, 230, 247);
         font-size: 12px;
         height: 400px;
-        width: 120px;
+        width: 130px;
         z-index: 4;
         position: absolute;
         right: 1%;
@@ -267,12 +268,12 @@ body {
         height:20px;
         padding: 20px;
         padding-bottom: 30px;
-        width: 120px;
+        width: 130px;
         letter-spacing: normal;
     }
 
     #home-icon  {
-        width: 120px;
+        width: 130px;
         height: 50px;
         border: 2px solid black;
         bottom: -10px;
@@ -281,7 +282,7 @@ body {
     .socialmedia {
         align-items: left;
         background: rgb(228, 230, 247);
-        width: 120px;
+        width: 130px;
         height: auto;
     }
 
