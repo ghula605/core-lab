@@ -144,7 +144,6 @@ body {
     float: right;
     right: 22.5%;
     top: 10%;
-    animation: float 4s ease-in-out infinite;
 }
 
 .corona-update {
@@ -183,7 +182,7 @@ body {
     width: 350px;
     height: auto;
     position: absolute;
-    top: 65%;
+    top: 66%;
     right: 3%;
     animation: float2 6s ease-in-out infinite;
 }
