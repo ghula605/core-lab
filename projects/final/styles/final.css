@@ -246,15 +246,15 @@ body {
         height: 400px;
         width: 130px;
         position: relative;
-        right: 0;
+        margin-right: 20px;
         float: right;
-        top: -100px;
+        top: -470px;
     }
 
     .wrapper {
         overflow: scroll;
         width: 100vw;
-        height: 800px;
+        height: 100vh;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
